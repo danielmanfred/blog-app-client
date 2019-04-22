@@ -4,7 +4,7 @@
 
 Projeto frontend simples para demonstrar o funcionamento da aplicação.
 
-### Pricipais componentes da aplicação
+### Principais componentes da aplicação
 
 - Login: Autenticação do usuário por validação de seu token JWT
 - Signup: Cadastro de usuário
