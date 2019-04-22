@@ -4,6 +4,20 @@
 
 Projeto frontend simples para demonstrar o funcionamento da aplicação.
 
+### Pricipais componentes da aplicação
+
+- Login: Autenticação do usuário por validação de seu token JWT
+- Signup: Cadastro de usuário
+- Post: Listagem dos posts cadastrados
+- AddPost: Cadastro de posts
+- Home: Área principal da aplicação
+
+### Sobre o serviço de autenticação
+
+O usuário é autorizado por meio do recebimento do token. 
+Os dados do usuário são armazenados na Session Storage e utilizados para verificar se o usuário está logado. 
+A Session Storage é limpada depois que o usuário realiza o logout.
+
 ## Passos para rodar esta aplicação
 
 Será necessário ter o Node na máquina para rodar a aplicação. 

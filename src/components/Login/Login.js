@@ -21,7 +21,7 @@ class Login extends Component {
     if (this.state.username && this.state.password) {
       PostData('auth/signin', this.state).then(result => {
         let responseJSON = result
-        if (responseJSON) {
+        if (responseJSON.token) {
           sessionStorage.setItem('userData', responseJSON)
           this.setState({ redirect: true })
         }
